@@ -1,3 +1,5 @@
+Methodology about selection participation for Yellowfit 4 life study.
+
 Balance Rewards HC API PHP
 =========
 
