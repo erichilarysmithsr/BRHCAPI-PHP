@@ -1,0 +1,19 @@
+options:
+  cors: true
+actions:
+  action: ./actions/action.js
+tasks:
+  task:
+    schedule: cron(5 8 ? * 0)
+    action: reddit_rss/frontPage
+    monitor:
+      action: reddit_rss/frontPage
+      trackBy: id
+      array: feed.entries
+paths:
+  /paths0:
+    get:
+      action: reddit_rss/frontPage
+tests:
+  test:
+    action: reddit_rss/frontPage
