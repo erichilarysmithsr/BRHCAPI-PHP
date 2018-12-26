@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "@datafire/reddit_rss": "4.0.0"
-  }
+    "@datafire/reddit_rss": "4.0.0",
+    "@datafire/mcw_edu": "4.0.0"
+  },
+  "name": "pharmakonmedicalcloud",
+  "version": "1.0.0"
 }
