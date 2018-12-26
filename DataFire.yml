@@ -23,6 +23,13 @@ paths:
   /paths0:
     get:
       action: reddit_rss/frontPage
+  /paths1:
+    get:
+      action: mcw_edu/getGeneAllelesUsingGET
 tests:
   test:
     action: reddit_rss/frontPage
+  test1:
+    action: mcw_edu/getGeneAllelesUsingGET
+    input:
+      rgdId: null
